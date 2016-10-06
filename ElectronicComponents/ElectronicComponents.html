@@ -1,0 +1,332 @@
+<HTML>
+<HEAD>
+  <TITLE>ElectronicComponents.html</TITLE>
+  <meta NAME = "GENERATOR"          CONTENT = "IHMC CmapTools vr. 4.12 ">
+  <meta NAME = "KEYWORDS"           CONTENT = "Robert Gruden, Concept Map, cmap, CmapTools, IHMC, ElectronicComponents,  Layers of conductive material sandwiched between layers of insulators,  Store an amount of electrical energy for a short time,  Diodes that create light when current flows the correct way,  Made from conductors and insulators,  Cutting area of matal in half cuts capacitance in half,  Handle High Loads,  Robert Gruden Digital Engineering 10/04/16,  Capacitance,  Ohms,  Light Emmiting Diodes (LEDs),  Capacitors,  Switching,  Resistors,  Ceramic tube dipped in metal or carbon,  The pressure of electricity,  Amplification,  Transistors,  Electronic Components,  Area of metal symetrical with other layers, and the thickness of the insulator,  Voltage">
+  <meta NAME = "DESCRIPTION"        CONTENT = "This Concept Map, created with IHMC CmapTools, has information related to: ElectronicComponents, Capacitors are used to Store an amount of electrical energy for a short time, Transistors used for Switching, Diodes have A peak inverse voltage, the voltage blocked from going the wrong direction, MOSFET can Activate without much current at all, V=IR (Voltage=Current*Resistance) variables Voltage, V=IR (Voltage=Current*Resistance) variables Resistance, Light Emmiting Diodes (LEDs) are Diodes that create light when current flows the correct way, Layers of conductive material sandwiched between layers of insulators important factors Area of metal symetrical with other layers, and the thickness of the insulator, Ceramic tube dipped in metal or carbon both Made from conductors and insulators, Transistors are Semiconductors capable of amplification and rectification, Electronic Components include Capacitors, Resistors made with Ceramic tube dipped in metal or carbon, Resistors limit Current, Current to flow in only 1 direction this property allows Diodes that create light when current flows the correct way, Diodes include Light Emmiting Diodes (LEDs), Layers of conductive material sandwiched between layers of insulators both Made from conductors and insulators, Transistors used for Amplification, V=IR (Voltage=Current*Resistance) variables Current, Current is The flow of electricity, Transistors include MOSFET">
+  <meta NAME = "AUTHOR"             CONTENT = "IHMC CmapTools">
+  <meta HTTP-EQUIV = "Content-Type" CONTENT = "text/html; charset = UTF-8">
+  <script LANGUAGE="JavaScript1.2">
+  <!--
+    //  PopUp --
+    //  Institute for Human and Machine Cognition, http://www.ihmc.us/
+    //  CmapTools, Version 4.11, http://cmap.ihmc.us/
+    //  Modify by: CmapTools Developers, cmapsupport@ihmc.us
+    //  Date: 12/14/2006
+
+    var IE = 0;
+    var IE4PC = 0;
+    var NS = 0;
+    var GECKO = 0;
+
+    var openpopups = new Array();
+
+    if (document.all) {                 // Internet Explorer Detected
+	   IE = true;	
+    }
+    else if (document.layers) {         // Netscape Navigator Detected
+	   NS = true;	
+    }
+    else if (document.getElementById) { // Netscape 6 Detected
+       GECKO = true;
+    }
+    else {
+	   alert("Unrecognized Browser Detected::\nSorry, your browser is not compatible.");
+    }
+
+    if (IE)
+    {
+	   OS = navigator.platform;
+	   VER = new String(navigator.appVersion);
+	   VER = VER.substr (0, VER.indexOf(" "));
+	   if ((VER < 4.8) && (OS == "Win32")) 
+	   {
+	       IE4PC = 1;
+	   }
+    }
+
+    function handleResize() {
+	    location.reload();
+	    return false;
+    }
+
+
+    if ((NS) && (navigator.platform == "MacPPC")) {
+	   window.captureEvents (Event.RESIZE);
+	   window.onresize = handleResize;
+    }
+
+    function openResource(event, resourcePath, resourceName, resourceType)
+    {
+	   var newwindow;
+
+       // Resource MIMETypes are enumerated as follows: 
+       // cMap     = Undefined
+       // Image    = 0
+       // Video    = 1
+       // Text     = 2
+       // Audio    = 3
+
+       popDown();
+
+	   switch (resourceType) 
+	   {
+	    case 0:     //Image
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<center><img src=\"';
+                    text += resourcePath;
+                    text +='\"> </center>';
+             break;
+		
+	    case 1:  text   // Video
+		     newwindow = window.open (resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+                     var text ='<embed src=\"';
+                     text += resourcePath;
+                     text +='\" autostart=true> </embed> ';
+             break;
+
+	    case 2:      // Text or Unknown 
+		     newwindow = window.open(resourcePath,resourceName);
+                     newwindow.onBlur = newwindow.focus()
+              break;
+
+	    case 3:       // Audio
+                    newwindow = window.open (resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+                    var text ='<embed src=\"';
+                    text += resourcePath;
+                    text +='\" autoplay=true> </embed> ';
+             break;
+
+	    case 4:
+                    newwindow = window.open(resourcePath,resourceName);
+                    newwindow.onBlur = newwindow.focus()
+	     break;
+	    }
+        return;
+    }
+
+
+
+    function popUpEvt(event, popupName)
+    {
+	popDown();
+
+	if (GECKO)
+	{
+	    document.getElementById(popupName).style.left = event.layerX;
+	    document.getElementById(popupName).style.top = event.layerY;
+	    document.getElementById(popupName).style.background = "#B3B3B3";
+	    document.getElementById(popupName).style.visibility = "visible";
+	    openpopups.push(popupName);
+	}
+	else if (NS) 
+	{
+	    document.layers[popupName].moveTo (event.pageX, event.pageY);
+	    document.layers[popupName].bgColor = "#B3B3B3";
+	    document.layers[popupName].visibility = "show";
+	    openpopups.push(popupName);
+	}
+	else // if (IE)
+	{
+	    window.event.cancelBubble = true;
+	    if (!IE4PC) {
+		document.all[popupName].style.backgroundColor = "#B3B3B3";
+	    }	
+	    document.all[popupName].style.left = window.event.clientX + document.body.scrollLeft;
+	    document.all[popupName].style.top = window.event.clientY + document.body.scrollTop;
+	    document.all[popupName].style.visibility = "visible";
+	    openpopups[openpopups.length] = popupName;
+	}
+	return false;
+    }
+
+    function popDown()
+    {
+	var popupname;
+	
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+		document.getElementById(popupname).style.visibility = "hidden";
+	    }
+	    else if (NS) {
+		document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+		document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+	return;
+    }
+
+    function popDownNoGecko() 
+    {
+	var popupname;
+	for (var i = 0; i < openpopups.length; i++) 
+	{
+	    popupname = new String (openpopups[i]);      
+	    if (GECKO) {
+           //  document.getElementById(popupname).style.visibility = "hidden"; 
+	        return;   // erased for test purposes
+	    }  
+	    else if (NS) {
+	        document.layers[popupname].visibility = "hide";
+	    }
+	    else {
+	        document.all[popupname].style.visibility = "hidden";
+	    }
+	}
+	openpopups = new Array();
+        return;
+    }
+  //-->
+  </script>
+</HEAD>
+<BODY bgcolor="#FFFFFF" leftmargin="0" topmargin="0">
+<noscript>
+  <table width=90% cellpadding=10>
+    <tr>
+      <td bgcolor=ff4447>
+        <font color=000000 size=+1 face="helvetica">
+        <h1>WARNING:</h1>
+        <b>JavaScript is turned OFF.  None of the links on this concept map will <br>
+           work until it is reactivated.
+          <p>
+            <a href="http://cmap.ihmc.us/docs/EnablingJavaScript.html">
+                            If you need help turning JavaScript On, click here.
+            </a>
+          </p>
+        </b>
+      </td>
+    </tr>
+  </table>
+This Concept Map, created with IHMC CmapTools, has information related to: ElectronicComponents, Capacitors are used to Store an amount of electrical energy for a short time, Transistors used for Switching, Diodes have A peak inverse voltage, the voltage blocked from going the wrong direction, MOSFET can Activate without much current at all, V=IR (Voltage=Current*Resistance) variables Voltage, V=IR (Voltage=Current*Resistance) variables Resistance, Light Emmiting Diodes (LEDs) are Diodes that create light when current flows the correct way, Layers of conductive material sandwiched between layers of insulators important factors Area of metal symetrical with other layers, and the thickness of the insulator, Ceramic tube dipped in metal or carbon both Made from conductors and insulators, Transistors are Semiconductors capable of amplification and rectification, Electronic Components include Capacitors, Resistors made with Ceramic tube dipped in metal or carbon, Resistors limit Current, Current to flow in only 1 direction this property allows Diodes that create light when current flows the correct way, Diodes include Light Emmiting Diodes (LEDs), Layers of conductive material sandwiched between layers of insulators both Made from conductors and insulators, Transistors used for Amplification, V=IR (Voltage=Current*Resistance) variables Current, Current is The flow of electricity, Transistors include MOSFET
+
+</noscript>
+
+<map name="ElectronicComponents.html">
+  <area shape="rect"
+        href="1QMN1GZ2LILSM50FI2C8ItextIhtml"
+        onClick="popUpEvt(event,'1QMN1GZ2LILSM50FI2C8ItextIhtml'); return false;"
+        coords="750,333,768,351">
+  <area shape="rect"
+        href="1QMMZ5C2FIZXRGDDIQ6ItextIhtml"
+        onClick="popUpEvt(event,'1QMMZ5C2FIZXRGDDIQ6ItextIhtml'); return false;"
+        coords="301,192,319,210">
+  <area shape="rect"
+        href="1QMMZ97PMIT37LKNISWItextIhtml"
+        onClick="popUpEvt(event,'1QMMZ97PMIT37LKNISWItextIhtml'); return false;"
+        coords="1147,560,1165,578">
+  <area shape="rect"
+        href="1QMN308VRI294Q90MI3M3ItextIhtml"
+        onClick="popUpEvt(event,'1QMN308VRI294Q90MI3M3ItextIhtml'); return false;"
+        coords="206,588,224,606">
+  <area shape="rect"
+        href="1QMMZ6HPDIN2C66GIRXItextIhtml"
+        onClick="popUpEvt(event,'1QMMZ6HPDIN2C66GIRXItextIhtml'); return false;"
+        coords="1581,184,1599,202">
+</map>
+
+<center>
+  <table width=* height=* cellpadding=0 cellspacing=0 border=0>
+    <tr>
+      <td valign=center align=center>
+        <img USEMAP="#ElectronicComponents.html"
+             SRC="ElectronicComponents.jpg"
+             ALIGN=middle
+             BORDER=0
+             onClick=popDown();>
+      </td>
+    </tr>
+    <tr>
+      <td VALIGN=top ALIGN=right>
+        <table>
+          <tr>
+            <td ALIGN=right VALIGN=middle>
+              <map NAME="CmapToolsTrademark">
+                <area SHAPE="rect"
+                      href="http://cmap.ihmc.us/"
+                      onClick="openResource(event,'http://cmap.ihmc.us/', 0, 2); return false;"
+                      coords="1,1,210,50">
+              </map>
+            </td>
+          </tr>
+          <tr>
+            <td  ALIGN=right VALIGN=middle>
+              <img USEMAP="#CmapToolsTrademark"
+                   SRC="CmapToolsTrademark.gif" 
+                   ALT="IHMC Cmap Tools Trademark" width="210" height="50"
+                   ALIGN=middle
+                   BORDER=0>
+            </td>
+            <td VALIGN=middle>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</center>
+</BODY>
+</HTML>
+<div id="1QMN1GZ2LILSM50FI2C8ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://en.wikipedia.org/wiki/Capacitance "TITLE="">
+      Capacitance
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QMMZ5C2FIZXRGDDIQ6ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://en.wikipedia.org/wiki/Transistor "TITLE="">
+      Transistor
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QMMZ97PMIT37LKNISWItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://en.wikipedia.org/wiki/Electric_current "TITLE="">
+      Electric current
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QMN308VRI294Q90MI3M3ItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://en.wikipedia.org/wiki/MOSFET "TITLE="">
+      MOSFET
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+<div id="1QMMZ6HPDIN2C66GIRXItextIhtml" style="POSITION: absolute; Z-INDEX: 20; VISIBILITY: hidden; left: 0; top: 0;">
+  <table border=1 cellpadding=1 cellspacing=0 bgcolor="#dddddd">
+    <tr>
+      <td nowrap><font face="Geneva, Arial" size=2>
+      <a href="https://en.wikipedia.org/wiki/Diode "TITLE="">
+      Diode
+      </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
